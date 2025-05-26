@@ -1,3 +1,6 @@
+# Vite cached files and hit reload files
+.vite/*
+
 # Logs
 logs
 *.log
@@ -8,8 +11,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
+# dist
+# dist-ssr
 *.local
 
 # Editor directories and files
